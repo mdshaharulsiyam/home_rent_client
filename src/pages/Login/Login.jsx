@@ -76,7 +76,7 @@ const Login = () => {
                 name='email'
                 id='email'
                 required
-                placeholder='Enter Your Email Here'
+                defaultValue='admin@gmail.com'
                 className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
                 data-temp-mail-org='0'
               />
@@ -93,7 +93,7 @@ const Login = () => {
                 autoComplete='current-password'
                 id='password'
                 required
-                placeholder='*******'
+                defaultValue='admin@gmail.com'
                 className='w-full px-3 py-2 border rounded-md border-gray-300 focus:outline-rose-500 bg-gray-200 text-gray-900'
               />
             </div>
